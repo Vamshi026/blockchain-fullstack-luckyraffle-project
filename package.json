@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3uikit/core": "^1.1.5",
+    "@web3uikit/icons": "^1.1.2",
+    "@web3uikit/web3": "^0.3.2",
+    "ethers": "^6.13.4",
+    "moralis-v1": "^1.13.0",
+    "next": "14.2.16",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.16"
+    "react-moralis": "^1.4.2"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
-    "eslint-config-next": "14.2.16"
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-solidity": "^1.4.1",
+    "tailwindcss": "^3.4.14"
   }
 }
